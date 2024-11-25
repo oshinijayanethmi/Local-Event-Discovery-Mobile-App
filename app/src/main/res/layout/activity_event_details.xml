@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8DF1FF"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Event Title -->
+        <TextView
+            android:id="@+id/tv_event_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/event_title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:gravity="center" />
+
+        <!-- Event Description -->
+        <TextView
+            android:id="@+id/tv_event_description"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:text="@string/event_description"
+            android:textSize="16sp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Event Category -->
+        <TextView
+            android:id="@+id/tv_event_category"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:text="@string/category_music"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Contact Information -->
+        <TextView
+            android:id="@+id/tv_event_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/contact_123456789"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Event Date -->
+        <TextView
+            android:id="@+id/tv_event_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/date_2024_12_01"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Event Time -->
+        <TextView
+            android:id="@+id/tv_event_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/time_6_00_pm"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Event Location -->
+        <TextView
+            android:id="@+id/tv_event_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/location_main_street_city"
+            android:padding="10dp"
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Book Tickets Button -->
+        <Button
+            android:id="@+id/btn_book_tickets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/book_tickets"
+            android:layout_marginBottom="12dp" />
+
+        <!-- View Location Button -->
+        <Button
+            android:id="@+id/btn_view_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/view_location_on_map" />
+
+    </LinearLayout>
+</ScrollView>

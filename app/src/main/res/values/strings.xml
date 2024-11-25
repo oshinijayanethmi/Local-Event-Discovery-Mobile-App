@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Local Event Discovery</string>
+    <string name="date_2024_12_01">Date: 2024-12-01</string>
+    <string name="event_title">Event Title</string>
+    <string name="event_description">Event Description</string>
+    <string name="category_music">Category: Music</string>
+    <string name="contact_123456789">Contact: 123456789</string>
+    <string name="time_6_00_pm">Time: 6:00 PM</string>
+    <string name="location_main_street_city">Location: Main Street, City</string>
+    <string name="book_tickets">Book Tickets</string>
+    <string name="view_location_on_map">View Location on Map</string>
+    <string name="event_name">Event Name</string>
+    <string name="save_event">Save Event</string>
+</resources>

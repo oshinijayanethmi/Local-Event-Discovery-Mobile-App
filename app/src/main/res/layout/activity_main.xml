@@ -1,0 +1,42 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_image"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="184dp"
+        android:layout_height="184dp"
+        android:background="@drawable/logo"
+        android:padding="20dp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Local Event Discovery"
+        android:textSize="28sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:id="@+id/btn_get_started"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#00F4FF"
+        android:textSize="15dp"
+        android:fontFamily="times"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="Get Started" />
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:layout_marginTop="120dp"
+        android:textColorHint="@color/black"
+        android:id="@+id/et_update_event_name"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:hint="Update Event Name" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_update_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Update" />
+</LinearLayout>
